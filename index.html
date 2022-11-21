@@ -6,62 +6,78 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./syles.css">
   <title>Document</title>
 </head>
 
 <body>
   <header>
     <nav>
-      <div>
-        <i class="fa fa-bars" aria-hidden="true"></i>
+      <div id="ham-space">
+        <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
       </div>
     </nav>
   </header>
-  <section>
-    <h1><span>Hello! Software Enthusiast's</span><span>Wed development course</span></h1>
-    <p>In October, a fun festival is held in Korea where people from 80 countries who believe in the value of sharing
+  <section class="spaceRound">
+    <p class="textColor">Hello! Software Enthusiast's</p>
+    <h1 class="textColor" id="helloFont">Wed Development Course</h1>
+    <p id="background">In October, a fun festival is held in Korea where people from 80 countries who
+      believe in the
+      value of sharing
       and openness and create positive change gather and share their thoughts.
     </p>
     <p>
       2015.10.14 (Wed) ~ 17 (Sat)
-      @National Museum of Korea, Art Center Nabi, etc.
     </p>
+    <p>@National Museum of Korea, Art Center Nabi, etc.</p>
   </section>
-  <section>
+  <section id="mainback" class="spaceR">
     <h2>Main Program</h2>
     <div>
-      <div>
-        <p>Icon</p>
+      <div class="iconcards">
+        <img class="imgs" src="./assets/conference.jpg" alt="conference Icon">
+        <h3 class="textColor">conference</h3>
+        <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
+      </div>
+      <div class="iconcards">
+        <img src="./assets/exhibition.png" alt="exhibition Icon" class="imgs">
+        <h3 class="textColor">conference</h3>
+        <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
+      </div>
+      <div class="iconcards">
+        <img src="./assets/forum.png" alt="Forum Icon" class="imgs">
+        <h3 class="textColor">conference</h3>
+        <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
+      </div>
+      <div class="iconcards">
+        <img src="./assets/workshop.png" alt="Workshop Icon" class="imgs">
         <h3>conference</h3>
         <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
       </div>
-      <div>
-        <p>Icon</p>
-        <h3>conference</h3>
-        <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
-      </div>
-      <div>
-        <p>Icon</p>
-        <h3>conference</h3>
-        <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
-      </div>
-      <div>
-        <p>Icon</p>
-        <h3>conference</h3>
-        <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
-      </div>
-      <div>
-        <p>Icon</p>
+      <div class="iconcards">
+        <img src="./assets/ignite.png" alt="Ignite Icon" class="imgs">
         <h3>conference</h3>
         <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
       </div>
     </div>
-    <button>join CC Global Summit 2015</button>
+    <button id="button">join CC Global Summit 2015</button>
   </section>
-  <section>
+  <section class="spaceRound">
     <h2>Featured Speakers</h2>
-    <div id="dynamic"></div>
+    <div id="dynamic">Hello!</div>
   </section>
+  <section class="partnerback">
+    <h2>Partner</h2>
+    <div>
+      <p>mozilla</p>
+      <p>Google</p>
+      <p>NAVER</p>
+      <p>daumkakao</p>
+      <p><img class="imgs" src="./assets/aibnb.png" alt="aibnb logo"> airbnb</p>
+    </div>
+  </section>
+  <footer></footer>
+  <script src="./app.js"></script>
 </body>
 
 </html>

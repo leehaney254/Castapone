@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@300&family=Poppins&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.spaceRound {
+  margin: 25px;
+}
+
+#ham-space {
+  margin: 15px 25px;
+}
+
+.textColor {
+  color: #ec5242;
+}
+
+#helloFont {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 40px;
+  line-height: 25px;
+}
+
+#background {
+  background-color: #F0F0F0;
+}
+
+#mainback {
+  background-color: #272a31;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.fa-color {
+  color: white !important;
+}
+
+.imgs {
+  width: 65px;
+  height: 65px;
+}
+
+.iconcards {
+  background-color: #3c3f46;
+  display: flex;
+  justify-content: space-between;
+}
+
+#button {
+  color: white;
+  background-color: #fc4c3c;
+  border: none;
+  padding: 20px 30px;
+  margin-top: 15px;
+}
+
+.partnerback {
+  background-color: #3c3f46;
+}
