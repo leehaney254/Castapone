@@ -9,7 +9,7 @@ body {
   margin: 25px;
 }
 
-#ham-space {
+.ham-space {
   margin: 15px 25px;
 }
 
@@ -62,4 +62,64 @@ body {
 
 .partnerback {
   background-color: #3c3f46;
+}
+
+#logo {
+  width: 55px;
+  height: 55px;
+}
+
+.noStyle {
+  list-style: none;
+}
+
+.noAncStyle {
+  text-decoration: none;
+  color: inherit;
+}
+
+#Btn {
+  color: #ec5242;
+  background-color: white;
+  border: 5px solid #ec5242;
+  padding: 8px 10px;
+  margin-left: 40px;
+  font-weight: 600px;
+  font-size: 30px;
+}
+
+.navSpace {
+  margin-left: 10px;
+}
+
+.listStle {
+  margin-top: 20px;
+  font-weight: 600px;
+  font-size: 40px;
+  color: white;
+}
+
+.noDisplay {
+  display: none;
+}
+
+/*to be used on mobile menu*/
+.hideMenu {
+  transform: translateX(-100%);
+}
+
+.displayMenu {
+  transform: translateY(0);
+}
+
+.blurBack {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+  transition: 0.3s;
 }
