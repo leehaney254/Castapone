@@ -42,6 +42,7 @@ function dynamicSpeaker(cardinfo) {
   //give them classes and ids
   speakerImg.classList.add('imgs');
   speakerProf.classList.add('textColor');
+  div.classList.add('flexCard');
 
   //give attributes
   speakerImg.setAttribute('src', cardinfo.img);

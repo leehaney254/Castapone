@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Lato', sans-serif;
 }
 
@@ -9,8 +10,34 @@ body {
   margin: 25px;
 }
 
+#statesize {
+  font-size: x-large;
+}
+
+#dateSize {
+  font-size: xx-large;
+  font-weight: 400px;
+}
+
+#firstback {
+  background-image: url('./assets/back1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hrstyle {
+  width: 10%;
+  background-color: #ec5242;
+  border: #ec5242 1px solid;
+}
+
+#progspace {
+  margin-top: 30px;
+}
+
 .ham-space {
-  margin: 15px 25px;
+  margin: 0 25px;
+  padding: 15px 0;
 }
 
 .textColor {
@@ -21,11 +48,15 @@ body {
   font-style: normal;
   font-weight: 400px;
   font-size: 40px;
-  line-height: 25px;
+  line-height: 37px;
 }
 
 #background {
   background-color: #F0F0F0;
+}
+
+.flexCard {
+  display: flex;
 }
 
 #mainback {
@@ -47,9 +78,12 @@ body {
 }
 
 .iconcards {
-  background-color: #3c3f46;
+  background-image: url('./assets/back2.png');
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.02);
+  margin-top: 20px;
 }
 
 #button {
@@ -122,4 +156,83 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(15px);
   transition: 0.3s;
+}
+
+#topnav {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #toptweet {
+    width: 20px;
+    height: 20px;
+  }
+
+  #topnav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    background-color: #393936;
+    margin: 0;
+    padding: 3px;
+    color: white;
+  }
+
+  .topli {
+    margin-right: 20px;
+  }
+
+  #face {
+    margin-right: 140px;
+  }
+
+  .ham-space {
+    display: none;
+  }
+
+  #statesize {
+    margin-top: 0;
+  }
+
+  .spaceRound {
+    margin-top: 0;
+  }
+
+  .hideMenu {
+    transform: translateX(0);
+  }
+
+  .blurBack {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: white;
+    transition: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .listStle {
+    margin: 0 25px;
+    font-weight: 0;
+    font-size: 15px;
+    color: #000;
+  }
+
+  .deskarr {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #Btn {
+    padding: 2px 5px;
+    margin: 0 140px 0 40px;
+    font-weight: 0;
+    font-size: 15px;
+  }
+
+  .noDisplay {
+    display: inline;
+    margin: 0 0 0 50px;
+  }
 }

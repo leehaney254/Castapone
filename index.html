@@ -11,41 +11,52 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <div class="ham-space">
-        <i class="fa fa-bars fa-3x" id="hum-menu" aria-hidden="true"></i>
-      </div>
-      <div class="blurBack hideMenu">
-        <div class="ham-space" id="cancel"><i class="fa fa-times fa-3x" aria-hidden="true"></i></div>
-        <a href="./index.html" class="noDisplay"><img id="logo" src="./assets/logo.jpg" alt="Company logo"></a>
-        <ul class="noStyle">
-          <li class="listStle"><a class="noAncStyle" href="./about.html">About</a></li>
-          <li class="listStle"><a class="noAncStyle" href="#">Program</a></li>
-          <li class="listStle"><a class="noAncStyle" href="#">join</a></li>
-          <li class="listStle"><a class="noAncStyle" href="#">Sponsor</a></li>
-          <li class="listStle"><a class="noAncStyle" href="#">News</a></li>
-        </ul>
-        <button id="Btn">CC Campaign</button>
-      </div>
-    </nav>
-  </header>
-  <section class="spaceRound">
-    <p class="textColor">Hello! Software Enthusiast's</p>
-    <h1 class="textColor" id="helloFont">Wed Development Course</h1>
-    <p id="background">In October, a fun festival is held in Korea where people from 80 countries who
-      believe in the
-      value of sharing
-      and openness and create positive change gather and share their thoughts.
-    </p>
-    <p>
-      2015.10.14 (Wed) ~ 17 (Sat)
-    </p>
-    <p>@National Museum of Korea, Art Center Nabi, etc.</p>
-  </section>
+  <ul class="noStyle" id="topnav">
+    <li class="topli"><a class="noAncStyle" href="#"><b>f</b></a></li>
+    <li class="topli"><a class="noAncStyle" href="#"><img id='toptweet' src="./assets/twitter.png"
+          alt="link to twitter"></a></li>
+    <li class="topli"><a class="noAncStyle" href="#">English</a></li>
+    <li class="topli"><a class="noAncStyle" href="#">My Page</a></li>
+    <li class="topli" id="face"><a class="noAncStyle" href="#">Logout</a></li>
+  </ul>
+  <div id="firstback">
+    <header>
+      <nav>
+        <div class="ham-space">
+          <i class="fa fa-bars fa-3x" id="hum-menu" aria-hidden="true"></i>
+        </div>
+        <div class="blurBack hideMenu">
+          <div class="ham-space" id="cancel"><i class="fa fa-times fa-3x" aria-hidden="true"></i></div>
+          <a href="./index.html" class="noDisplay"><img id="logo" src="./assets/logo.jpg" alt="Company logo"></a>
+          <ul class="noStyle deskarr">
+            <li class="listStle"><a class="noAncStyle" href="./about.html">About</a></li>
+            <li class="listStle"><a class="noAncStyle" href="#">Program</a></li>
+            <li class="listStle"><a class="noAncStyle" href="#">join</a></li>
+            <li class="listStle"><a class="noAncStyle" href="#">Sponsor</a></li>
+            <li class="listStle"><a class="noAncStyle" href="#">News</a></li>
+          </ul>
+          <button id="Btn">CC Campaign</button>
+        </div>
+      </nav>
+    </header>
+    <section class="spaceRound">
+      <p class="textColor" id="statesize">Hello! Software Enthusiast's</p>
+      <h1 class="textColor" id="helloFont">Web Development Course</h1>
+      <p id="background">In October, a fun festival is held in Korea where people from 80 countries who
+        believe in the
+        value of sharing
+        and openness and create positive change gather and share their thoughts.
+      </p>
+      <p id="dateSize">
+        2015.10.14 (Wed) ~ 17 (Sat)
+      </p>
+      <p>@National Museum of Korea, Art Center Nabi, etc.</p>
+    </section>
+  </div>
   <section id="mainback" class="spaceR">
     <h2>Main Program</h2>
-    <div>
+    <hr class="hrstyle">
+    <div id="progspace">
       <div class="iconcards">
         <img class="imgs" src="./assets/conference.jpg" alt="conference Icon">
         <h3 class="textColor">conference</h3>
@@ -63,12 +74,12 @@
       </div>
       <div class="iconcards">
         <img src="./assets/workshop.png" alt="Workshop Icon" class="imgs">
-        <h3>conference</h3>
+        <h3 class="textColor">conference</h3>
         <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
       </div>
       <div class="iconcards">
         <img src="./assets/ignite.png" alt="Ignite Icon" class="imgs">
-        <h3>conference</h3>
+        <h3 class="textColor">conference</h3>
         <p>Listen to lectures from speakers from various countries and find out about the latest global trends.</p>
       </div>
     </div>
@@ -76,7 +87,8 @@
   </section>
   <section class="spaceRound">
     <h2>Featured Speakers</h2>
-    <div id="dynamic">Hello!</div>
+    <hr class="hrstyle">
+    <div id="dynamic"></div>
   </section>
   <section class="partnerback">
     <h2>Partner</h2>
