@@ -29,6 +29,12 @@ const speakersData = [
     work: 'He is an American business magnate, internet entrepreneur, and philanthropist.',
     words: 'He is known for co-founding the social media website Facebook and its parent company Meta Platforms, of which he is the chairman, chief executive officer, and controlling shareholder.',
   },
+  {
+    img: './assets/zuckerberg.jpg',
+    name: 'Mark Zuckerberg',
+    work: 'He is an American business magnate, internet entrepreneur, and philanthropist.',
+    words: 'He is known for co-founding the social media website Facebook and its parent company Meta Platforms, of which he is the chairman, chief executive officer, and controlling shareholder.',
+  },
 ]
 
 function dynamicSpeaker(cardinfo) {

@@ -162,6 +162,35 @@ body {
   display: none;
 }
 
+.partnerback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
+
+#partlog {
+  display: flex;
+}
+
+.air {
+  width: 30px;
+}
+
+.logoz {
+  font-weight: 0;
+  font-size: 35px;
+}
+
+#foots {
+  display: flex;
+  justify-content: space-between;
+}
+
+#extra {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   #toptweet {
     width: 20px;
@@ -234,5 +263,33 @@ body {
   .noDisplay {
     display: inline;
     margin: 0 0 0 50px;
+  }
+
+  #statesize {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+
+  #progspace {
+    display: flex;
+  }
+
+  .iconcards {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+    justify-content: center;
+  }
+
+  .notDisp {
+    display: none;
+  }
+
+  .logoz {
+    margin: 0 15px;
+  }
+
+  #extra {
+    display: block;
   }
 }
