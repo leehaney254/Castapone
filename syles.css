@@ -7,11 +7,20 @@ body {
 }
 
 .spaceRound {
-  margin: 25px;
+  margin: 0 25px;
+  padding-bottom: 4rem;
 }
 
 #statesize {
   font-size: x-large;
+  margin-top: 4rem;
+}
+
+#helloFont {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 40px;
+  line-height: 37px;
 }
 
 #dateSize {
@@ -44,19 +53,34 @@ body {
   color: #ec5242;
 }
 
-#helloFont {
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 40px;
-  line-height: 37px;
+#homeintro {
+  margin-left: 4rem;
 }
 
 #background {
   background-color: #F0F0F0;
+  max-width: 500px;
+  padding: 1rem;
+  border: 1px solid #fff;
+}
+
+.textcol {
+  color: #4b4b4b;
+}
+
+.backgrounds {
+  background-color: #F0F0F0;
+  padding: 1rem;
+  border: 1px solid #fff;
 }
 
 .flexCard {
   display: flex;
+  margin-top: 3rem;
+}
+
+.margo {
+  margin: 2rem 2rem 5rem 2rem;
 }
 
 #mainback {
@@ -73,9 +97,25 @@ body {
 }
 
 .imgs {
-  width: 65px;
-  height: 65px;
+  width: 8rem;
+  height: 8rem;
 }
+
+.namz {
+  margin: 0;
+}
+
+.namz2 {
+  margin: 0;
+}
+
+.speaktext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
 
 .iconcards {
   background-image: url('./assets/back2.png');
@@ -86,12 +126,16 @@ body {
   margin-top: 20px;
 }
 
+.conspace {
+  margin: 0 10px;
+}
+
 #button {
   color: white;
   background-color: #fc4c3c;
   border: none;
   padding: 20px 30px;
-  margin-top: 15px;
+  margin: 50px 0;
 }
 
 .partnerback {
@@ -110,6 +154,12 @@ body {
 .noAncStyle {
   text-decoration: none;
   color: inherit;
+  margin: 50px 0;
+}
+
+.noAncStyl {
+  color: inherit;
+  margin: 50px 0;
 }
 
 #Btn {
@@ -191,6 +241,7 @@ body {
 #foots {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 #extra {
@@ -209,6 +260,7 @@ body {
 
 #midlog {
   width: 6rem;
+  margin-bottom: 4rem;
 }
 
 #sumlink {
@@ -225,8 +277,17 @@ body {
   flex-direction: column;
 }
 
+#sizing {
+  max-width: 300px;
+}
+
 .spacin {
   margin: 1rem 0;
+}
+
+#dynamic {
+  display: grid;
+  grid-template-columns: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -255,10 +316,6 @@ body {
 
   .ham-space {
     display: none;
-  }
-
-  #statesize {
-    margin-top: 0;
   }
 
   .spaceRound {
@@ -306,6 +363,14 @@ body {
   #statesize {
     font-size: 40px;
     margin-top: 100px;
+    margin-top: 5rem;
+  }
+
+  #helloFont {
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 65px;
+    line-height: 37px;
   }
 
   #progspace {
@@ -348,5 +413,22 @@ body {
     font-weight: 0;
     font-size: 35px;
     margin: 20px 20px;
+  }
+
+  #imgtag {
+    flex-direction: row;
+  }
+
+  .spacin {
+    margin: 3rem 1rem;
+  }
+
+  #dynamic {
+    grid-template-columns: auto auto;
+  }
+
+  .noAncStyl {
+    color: inherit;
+    margin: 50px 0;
   }
 }

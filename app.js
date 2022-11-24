@@ -1,39 +1,39 @@
 const speakersData = [
   {
-    img: './assets/bezos.jpg',
+    img: './assets/2.jpg',
     name: 'Jeff Bezos',
-    work: 'Jeffrey Preston Bezos is an American entrepreneur',
-    words: 'He is the founder, executive chairman, and former president and CEO of Amazon.',
+    work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
-    img: './assets/billgates.jpg',
+    img: './assets/3.avif',
     name: 'Bill Gates',
-    work: 'William Henry Gates III is an American business magnate.',
-    words: 'He is a co-founder of Microsoft, along with his late childhood friend Paul Allen. During his career at Microsoft, Gates held the positions of chairman, chief executive officer (CEO)',
+    work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
-    img: './assets/elon.png',
+    img: './assets/1.jpeg',
     name: 'Elon Musk',
-    work: 'Elon Reeve Musk FRS is a business magnate and investor.',
-    words: ' He is the founder, CEO and chief engineer of SpaceX; angel investor, CEO and product architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink and OpenAI;',
+    work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
-    img: './assets/jackma.jpg',
+    img: './assets/6.jpeg',
     name: 'Jack Ma',
-    work: 'He is a Chinese business magnate, investor and philanthropist.',
-    words: ' He is the co-founder and former executive chairman of Alibaba Group, a multinational technology conglomerate. In addition, he co-founded Yunfeng Capital, a Chinese private equity firm.',
+    work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
-    img: './assets/zuckerberg.jpg',
+    img: './assets/4.avif',
     name: 'Mark Zuckerberg',
-    work: 'He is an American business magnate, internet entrepreneur, and philanthropist.',
-    words: 'He is known for co-founding the social media website Facebook and its parent company Meta Platforms, of which he is the chairman, chief executive officer, and controlling shareholder.',
+    work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
-    img: './assets/zuckerberg.jpg',
+    img: './assets/5.avif',
     name: 'Mark Zuckerberg',
-    work: 'He is an American business magnate, internet entrepreneur, and philanthropist.',
-    words: 'He is known for co-founding the social media website Facebook and its parent company Meta Platforms, of which he is the chairman, chief executive officer, and controlling shareholder.',
+    work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
 ]
 
@@ -47,8 +47,10 @@ function dynamicSpeaker(cardinfo) {
 
   //give them classes and ids
   speakerImg.classList.add('imgs');
-  speakerProf.classList.add('textColor');
+  speakerProf.classList.add('textColor', 'namz2');
   div.classList.add('flexCard');
+  speakerName.classList.add('namz');
+  infoDiv.classList.add('speaktext');
 
   //give attributes
   speakerImg.setAttribute('src', cardinfo.img);
