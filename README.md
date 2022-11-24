@@ -12,7 +12,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-- [👥 Authors](#authors)
+- [👥 Author](#author)
 - [🔭 Future Features](#future-features)
 - [🔭 Loom Video](#Loom)
 - [🤝 Contributing](#contributing)
@@ -97,7 +97,7 @@ Just run npm i to install all dependencies
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Author <a name="author"></a>
 
 **Leehaney George**
 

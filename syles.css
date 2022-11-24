@@ -87,7 +87,10 @@ body {
 
 .flexCard {
   display: flex;
-  margin-top: 3rem;
+  padding: 3rem 0 0 3rem;
+  background-image: url('./assets/speaker_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 2rem 2rem;
 }
 
 .margo {
@@ -181,7 +184,6 @@ body {
   background-color: white;
   border: 5px solid #ec5242;
   padding: 8px 10px;
-  margin-left: 40px;
   font-size: 30px;
   transition-duration: 0.5s;
 }
@@ -314,7 +316,7 @@ a:hover {
 }
 
 .iconcards:hover {
-  border: 1px solid #ec5242;
+  border: 2px solid #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -337,7 +339,7 @@ a:hover {
   }
 
   #face {
-    margin-right: 140px;
+    margin-right: 10rem;
   }
 
   .ham-space {
@@ -359,11 +361,11 @@ a:hover {
     background-color: white;
     transition: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .listStle {
-    margin: 0 25px;
+    margin: 0 15px;
     font-size: 15px;
     color: #000;
   }
@@ -371,6 +373,7 @@ a:hover {
   .deskarr {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   #sizefit {
@@ -380,10 +383,11 @@ a:hover {
 
   #Btn {
     padding: 5px 8px;
-    margin: 10px 140px 0 0;
+    margin-left: 3rem;
     font-size: 15px;
     height: 5%;
     border: 3px solid #ec5242;
+    cursor: pointer;
   }
 
   .noDisplay {
