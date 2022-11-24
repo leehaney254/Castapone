@@ -97,7 +97,7 @@ Just run npm i to install all dependencies
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 **Leehaney George**
 
