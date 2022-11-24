@@ -123,7 +123,7 @@ Contributions, issues, and feature requests are welcome!
 
 
 ## The Loom video<a name="Loom"></a>
-- The loom video can be found [here](https://www.loom.com/share/6733c48446eb416491b8af736fcfea8e)
+- The loom video can be found [here](https://www.loom.com/share/92373ae78f754bba9b12f901270c08c6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
