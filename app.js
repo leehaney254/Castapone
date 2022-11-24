@@ -44,6 +44,7 @@ function dynamicSpeaker(cardinfo) {
   const speakerName = document.createElement('h3');
   const speakerProf = document.createElement('p');
   const speakerInfo = document.createElement('p');
+  const borderDiv = document.createElement('div');
 
   // give them classes and ids
   speakerImg.classList.add('imgs');
@@ -51,6 +52,7 @@ function dynamicSpeaker(cardinfo) {
   div.classList.add('flexCard');
   speakerName.classList.add('namz');
   infoDiv.classList.add('speaktext');
+  borderDiv.classList.add('borderLeft');
 
   // give attributes
   speakerImg.setAttribute('src', cardinfo.img);
@@ -63,6 +65,7 @@ function dynamicSpeaker(cardinfo) {
   div.appendChild(infoDiv);
   infoDiv.appendChild(speakerName);
   infoDiv.appendChild(speakerProf);
+  infoDiv.appendChild(borderDiv);
   infoDiv.appendChild(speakerInfo);
 
   return div;

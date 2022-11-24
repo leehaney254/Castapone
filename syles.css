@@ -122,7 +122,14 @@ body {
 .namz2 {
   margin: 0;
   padding-bottom: 1rem;
+}
+
+.borderLeft {
+  content: "";
+  display: block;
+  width: 10%;
   border-bottom: 1px solid gray;
+  background-color: gray;
 }
 
 .speaktext {
@@ -185,8 +192,9 @@ body {
   color: #ec5242;
   background-color: white;
   border: 5px solid #ec5242;
-  padding: 8px 10px;
+  padding: 8px 5px;
   font-size: 30px;
+  max-width: 15rem;
   transition-duration: 0.5s;
 }
 
