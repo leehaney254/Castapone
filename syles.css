@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@300&family=Poppins&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.spaceRound {
+  margin: 0 25px;
+  padding-bottom: 4rem;
+}
+
+#statesize {
+  font-size: x-large;
+  margin-top: 4rem;
+}
+
+#helloFont {
+  font-style: normal;
+  font-size: 40px;
+  line-height: 37px;
+}
+
+#dateSize {
+  font-size: xx-large;
+}
+
+#firstback {
+  background-image: url('./assets/back1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spactop {
+  margin-top: 5rem;
+}
+
+.hrstyle {
+  width: 10%;
+  background-color: #ec5242;
+  border: #ec5242 1px solid;
+}
+
+#progspace {
+  margin-top: 30px;
+}
+
+.ham-space {
+  margin: 0 25px;
+  padding: 15px 0;
+}
+
+.textColor {
+  color: #ec5242;
+}
+
+#homeintro {
+  margin-left: 4rem;
+}
+
+#background {
+  max-width: 500px;
+}
+
+.backgrounding {
+  padding: 1rem;
+  border: 1px solid #fff;
+  background-color: #f0f0f0;
+}
+
+.textcol {
+  color: #4b4b4b;
+}
+
+.backgrounds {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border: 1px solid #fff;
+}
+
+.hrstyles {
+  width: 5%;
+  background-color: #ec5242;
+  border: #ec5242 1px solid;
+}
+
+.flexCard {
+  display: flex;
+  padding: 3rem 0 0 3rem;
+  background-image: url('./assets/speaker_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 2rem 2rem;
+}
+
+.margo {
+  margin: 2rem 2rem 5rem 2rem;
+}
+
+#mainback {
+  background-color: #272a31;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.fa-color {
+  color: white !important;
+}
+
+.imgs {
+  width: 8rem;
+  height: 8rem;
+}
+
+.namz {
+  margin: 0;
+}
+
+.namz2 {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.borderLeft {
+  content: "";
+  display: block;
+  width: 10%;
+  border-bottom: 1px solid gray;
+  background-color: gray;
+}
+
+.speaktext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.iconcards {
+  background-image: url('./assets/back2.png');
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.02);
+  margin-top: 20px;
+}
+
+.conspace {
+  margin: 0 10px;
+}
+
+#button {
+  color: white;
+  background-color: #fc4c3c;
+  border: none;
+  padding: 20px 30px;
+  margin: 50px 0;
+}
+
+.partnerback {
+  background-color: #3c3f46;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
+
+#logo {
+  width: 55px;
+  height: 55px;
+}
+
+.noStyle {
+  list-style: none;
+}
+
+.noAncStyle {
+  text-decoration: none;
+  color: inherit;
+  margin: 50px 0;
+}
+
+.noAncStyl {
+  color: inherit;
+  margin: 50px 0;
+}
+
+#Btn {
+  color: #ec5242;
+  background-color: white;
+  border: 5px solid #ec5242;
+  padding: 8px 5px;
+  font-size: 30px;
+  max-width: 15rem;
+  transition-duration: 0.5s;
+}
+
+#Btn:hover {
+  color: white;
+  background-color: #ec5242;
+}
+
+.navSpace {
+  margin-left: 10px;
+}
+
+.listStle {
+  margin-top: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.noDisplay {
+  display: none;
+}
+
+/* to be used on mobile menu */
+.hideMenu {
+  transform: translateX(-100%);
+}
+
+.displayMenu {
+  transform: translateY(0);
+}
+
+.blurBack {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+  transition: 0.3s;
+}
+
+#topnav {
+  display: none;
+}
+
+#partlog {
+  display: flex;
+  flex-direction: column;
+}
+
+.partlog1 {
+  display: flex;
+}
+
+.logoz {
+  font-size: 35px;
+  margin: 20px 6px;
+}
+
+.air {
+  width: 30px;
+}
+
+#foots {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#extra {
+  display: none;
+}
+
+#part {
+  color: white;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#midlog {
+  width: 6rem;
+  margin-bottom: 4rem;
+}
+
+#sumlink {
+  color: black;
+}
+
+.margins {
+  margin: 0 2rem;
+}
+
+#different {
+  background-color: #fbfbfb;
+  padding-top: 4rem;
+}
+
+#imgtag {
+  display: flex;
+  flex-direction: column;
+}
+
+#sizing {
+  max-width: 300px;
+}
+
+.spacin {
+  margin: 1rem 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.spacin:hover {
+  transform: scale(1.5);
+}
+
+#dynamic {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+.iconcards:hover {
+  border: 2px solid #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  #toptweet {
+    width: 20px;
+    height: 20px;
+  }
+
+  #topnav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    margin: 0;
+    padding: 3px;
+    color: white;
+  }
+
+  .topli {
+    margin-right: 20px;
+  }
+
+  #face {
+    margin-right: 10rem;
+  }
+
+  .ham-space {
+    display: none;
+  }
+
+  .spaceRound {
+    margin-top: 0;
+  }
+
+  .hideMenu {
+    transform: translateX(0);
+  }
+
+  .blurBack {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: white;
+    transition: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .listStle {
+    margin: 0 15px;
+    font-size: 15px;
+    color: #000;
+  }
+
+  .deskarr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #sizefit {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  #Btn {
+    padding: 5px 8px;
+    margin-left: 3rem;
+    font-size: 15px;
+    height: 5%;
+    border: 3px solid #ec5242;
+    cursor: pointer;
+  }
+
+  .noDisplay {
+    display: inline;
+    margin: 0 0 0 50px;
+  }
+
+  #statesize {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-top: 5rem;
+  }
+
+  #helloFont {
+    font-style: normal;
+    font-size: 65px;
+    line-height: 37px;
+  }
+
+  #progspace {
+    display: flex;
+    margin: 5rem 7rem;
+  }
+
+  .iconcards {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+    justify-content: center;
+  }
+
+  .notDisp {
+    display: none;
+  }
+
+  .logoz {
+    font-size: 35px;
+    margin: 20px 20px;
+  }
+
+  #extra {
+    display: block;
+  }
+
+  #sizing {
+    max-width: 700px;
+  }
+
+  #partlog {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .partlog1 {
+    display: flex;
+  }
+
+  #imgtag {
+    flex-direction: row;
+  }
+
+  .spacin {
+    margin: 3rem 1rem;
+  }
+
+  #dynamic {
+    grid-template-columns: auto auto;
+    margin: 0 7rem;
+  }
+
+  .noAncStyl {
+    color: inherit;
+    margin: 50px 0;
+  }
+
+  #aboutnone {
+    display: none;
+  }
+
+  .aboutfoot {
+    background-color: black;
+    color: white;
+  }
+}
