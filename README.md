@@ -14,6 +14,7 @@
   - [Install](#install)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🔭 Loom Video](#Loom)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -117,6 +118,12 @@ Contributions, issues, and feature requests are welcome!
 - [ ] **Add more transition and animations**
 - [ ] **Implement more pages**
 - [ ] **Personolize the pages**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## The Loom video<a name="Loom"></a>
+- The loom video can be found [here](https://www.loom.com/share/6733c48446eb416491b8af736fcfea8e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
