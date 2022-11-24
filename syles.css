@@ -204,6 +204,29 @@ body {
 .centered {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+
+#midlog {
+  width: 6rem;
+}
+
+#sumlink {
+  color: black;
+  font-style: none;
+}
+
+.margins {
+  margin: 0 2rem;
+}
+
+#imgtag {
+  display: flex;
+  flex-direction: column;
+}
+
+.spacin {
+  margin: 1rem 0;
 }
 
 @media only screen and (min-width: 768px) {
