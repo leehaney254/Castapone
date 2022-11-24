@@ -1,4 +1,4 @@
-/*Build humberger menu*/
+/* Build humberger menu */
 let displayMenu = false; // keeps track of the menu state
 const humbergerMenu = document.querySelector('#hum-menu'); // select the humberger menu
 const hiddenMenu = document.querySelector('.blurBack'); // select the hidden menu

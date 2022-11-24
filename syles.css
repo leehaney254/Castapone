@@ -18,14 +18,12 @@ body {
 
 #helloFont {
   font-style: normal;
-  font-weight: 400px;
   font-size: 40px;
   line-height: 37px;
 }
 
 #dateSize {
   font-size: xx-large;
-  font-weight: 400px;
 }
 
 #firstback {
@@ -43,8 +41,6 @@ body {
   background-color: #ec5242;
   border: #ec5242 1px solid;
 }
-
-
 
 #progspace {
   margin-top: 30px;
@@ -70,7 +66,7 @@ body {
 .backgrounding {
   padding: 1rem;
   border: 1px solid #fff;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .textcol {
@@ -78,7 +74,7 @@ body {
 }
 
 .backgrounds {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   padding: 1rem;
   border: 1px solid #fff;
 }
@@ -131,7 +127,6 @@ body {
   margin-left: 2rem;
 }
 
-
 .iconcards {
   background-image: url('./assets/back2.png');
   display: flex;
@@ -155,6 +150,10 @@ body {
 
 .partnerback {
   background-color: #3c3f46;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
 }
 
 #logo {
@@ -198,7 +197,6 @@ body {
 
 .listStle {
   margin-top: 20px;
-  font-weight: 600px;
   font-size: 40px;
   color: white;
 }
@@ -207,7 +205,7 @@ body {
   display: none;
 }
 
-/*to be used on mobile menu*/
+/* to be used on mobile menu */
 .hideMenu {
   transform: translateX(-100%);
 }
@@ -232,13 +230,6 @@ body {
   display: none;
 }
 
-.partnerback {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: gray;
-}
-
 #partlog {
   display: flex;
   flex-direction: column;
@@ -249,7 +240,6 @@ body {
 }
 
 .logoz {
-  font-weight: 0;
   font-size: 35px;
   margin: 20px 6px;
 }
@@ -285,7 +275,6 @@ body {
 
 #sumlink {
   color: black;
-  font-style: none;
 }
 
 .margins {
@@ -308,7 +297,7 @@ body {
 
 .spacin {
   margin: 1rem 0;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .spacin:hover {
@@ -337,9 +326,8 @@ a:hover {
   #topnav {
     display: flex;
     justify-content: flex-end;
-    margin-right: 80px;
     background-color: black;
-    margin: 0;
+    margin: 0 80px 0 0;
     padding: 3px;
     color: white;
   }
@@ -376,7 +364,6 @@ a:hover {
 
   .listStle {
     margin: 0 25px;
-    font-weight: 0;
     font-size: 15px;
     color: #000;
   }
@@ -412,7 +399,6 @@ a:hover {
 
   #helloFont {
     font-style: normal;
-    font-weight: 400px;
     font-size: 65px;
     line-height: 37px;
   }
@@ -434,7 +420,8 @@ a:hover {
   }
 
   .logoz {
-    margin: 0 15px;
+    font-size: 35px;
+    margin: 20px 20px;
   }
 
   #extra {
@@ -452,12 +439,6 @@ a:hover {
 
   .partlog1 {
     display: flex;
-  }
-
-  .logoz {
-    font-weight: 0;
-    font-size: 35px;
-    margin: 20px 20px;
   }
 
   #imgtag {

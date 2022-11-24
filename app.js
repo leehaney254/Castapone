@@ -35,7 +35,7 @@ const speakersData = [
     work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
-]
+];
 
 function dynamicSpeaker(cardinfo) {
   const div = document.createElement('div');
@@ -45,20 +45,20 @@ function dynamicSpeaker(cardinfo) {
   const speakerProf = document.createElement('p');
   const speakerInfo = document.createElement('p');
 
-  //give them classes and ids
+  // give them classes and ids
   speakerImg.classList.add('imgs');
   speakerProf.classList.add('textColor', 'namz2');
   div.classList.add('flexCard');
   speakerName.classList.add('namz');
   infoDiv.classList.add('speaktext');
 
-  //give attributes
+  // give attributes
   speakerImg.setAttribute('src', cardinfo.img);
   speakerName.innerText = cardinfo.name;
   speakerProf.innerText = cardinfo.work;
   speakerInfo.innerText = cardinfo.words;
 
-  //append
+  // append
   div.appendChild(speakerImg);
   div.appendChild(infoDiv);
   infoDiv.appendChild(speakerName);
@@ -69,18 +69,17 @@ function dynamicSpeaker(cardinfo) {
 }
 
 function buildCards() {
-  let speakers = document.querySelector('#dynamic');
+  const speakers = document.querySelector('#dynamic');
 
   // add the cards dynamically
   speakersData.forEach((cards) => {
     speakers.appendChild(dynamicSpeaker(cards));
   });
-
 }
 
 buildCards();
 
-/*Build humberger menu*/
+/* Build humberger menu */
 let displayMenu = false; // keeps track of the menu state
 const humbergerMenu = document.querySelector('#hum-menu'); // select the humberger menu
 const hiddenMenu = document.querySelector('.blurBack'); // select the hidden menu
