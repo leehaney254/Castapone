@@ -121,6 +121,8 @@ body {
 
 .namz2 {
   margin: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid gray;
 }
 
 .speaktext {
