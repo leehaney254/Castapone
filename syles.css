@@ -171,24 +171,39 @@ body {
 
 #partlog {
   display: flex;
+  flex-direction: column;
+}
+
+.partlog1 {
+  display: flex;
+}
+
+.logoz {
+  font-weight: 0;
+  font-size: 35px;
+  margin: 20px 6px;
 }
 
 .air {
   width: 30px;
 }
 
-.logoz {
-  font-weight: 0;
-  font-size: 35px;
-}
-
 #foots {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #extra {
   display: none;
+}
+
+#part {
+  color: white;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -291,5 +306,24 @@ body {
 
   #extra {
     display: block;
+  }
+
+  #sizing {
+    max-width: 700px;
+  }
+
+  #partlog {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .partlog1 {
+    display: flex;
+  }
+
+  .logoz {
+    font-weight: 0;
+    font-size: 35px;
+    margin: 20px 20px;
   }
 }
