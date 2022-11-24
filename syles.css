@@ -34,11 +34,17 @@ body {
   background-size: cover;
 }
 
+.spactop {
+  margin-top: 5rem;
+}
+
 .hrstyle {
   width: 10%;
   background-color: #ec5242;
   border: #ec5242 1px solid;
 }
+
+
 
 #progspace {
   margin-top: 30px;
@@ -58,10 +64,13 @@ body {
 }
 
 #background {
-  background-color: #F0F0F0;
   max-width: 500px;
+}
+
+.backgrounding {
   padding: 1rem;
   border: 1px solid #fff;
+  background-color: #F0F0F0;
 }
 
 .textcol {
@@ -72,6 +81,12 @@ body {
   background-color: #F0F0F0;
   padding: 1rem;
   border: 1px solid #fff;
+}
+
+.hrstyles {
+  width: 5%;
+  background-color: #ec5242;
+  border: #ec5242 1px solid;
 }
 
 .flexCard {
@@ -168,7 +183,6 @@ body {
   border: 5px solid #ec5242;
   padding: 8px 10px;
   margin-left: 40px;
-  font-weight: 600px;
   font-size: 30px;
 }
 
@@ -272,6 +286,11 @@ body {
   margin: 0 2rem;
 }
 
+#different {
+  background-color: #fbfbfb;
+  padding-top: 4rem;
+}
+
 #imgtag {
   display: flex;
   flex-direction: column;
@@ -300,7 +319,7 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-right: 80px;
-    background-color: #393936;
+    background-color: black;
     margin: 0;
     padding: 3px;
     color: white;
@@ -348,11 +367,17 @@ body {
     justify-content: space-between;
   }
 
+  #sizefit {
+    max-width: 50%;
+    margin: auto;
+  }
+
   #Btn {
-    padding: 2px 5px;
-    margin: 0 140px 0 40px;
-    font-weight: 0;
+    padding: 5px 8px;
+    margin: 10px 140px 0 0;
     font-size: 15px;
+    height: 5%;
+    border: 3px solid #ec5242;
   }
 
   .noDisplay {
@@ -430,5 +455,14 @@ body {
   .noAncStyl {
     color: inherit;
     margin: 50px 0;
+  }
+
+  #aboutnone {
+    display: none;
+  }
+
+  .aboutfoot {
+    background-color: black;
+    color: white;
   }
 }
