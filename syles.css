@@ -419,6 +419,7 @@ a:hover {
 
   #progspace {
     display: flex;
+    margin: 5rem 7rem;
   }
 
   .iconcards {
@@ -469,6 +470,7 @@ a:hover {
 
   #dynamic {
     grid-template-columns: auto auto;
+    margin: 0 7rem;
   }
 
   .noAncStyl {
