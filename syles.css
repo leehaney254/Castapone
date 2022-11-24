@@ -184,6 +184,12 @@ body {
   padding: 8px 10px;
   margin-left: 40px;
   font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+#Btn:hover {
+  color: white;
+  background-color: #ec5242;
 }
 
 .navSpace {
@@ -302,11 +308,24 @@ body {
 
 .spacin {
   margin: 1rem 0;
+  transition: all .3s ease-in-out;
+}
+
+.spacin:hover {
+  transform: scale(1.5);
 }
 
 #dynamic {
   display: grid;
   grid-template-columns: auto;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+.iconcards:hover {
+  border: 1px solid #ec5242;
 }
 
 @media only screen and (min-width: 768px) {
