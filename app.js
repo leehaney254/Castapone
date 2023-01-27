@@ -1,37 +1,37 @@
 const speakersData = [
   {
     img: './assets/2.jpg',
-    name: 'Jeff Bezos',
+    name: 'David Kimani',
     work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
     img: './assets/3.avif',
-    name: 'Bill Gates',
+    name: 'Esther Atieno',
     work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
     img: './assets/1.jpeg',
-    name: 'Elon Musk',
+    name: 'Agnes Shikuku',
     work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
     img: './assets/6.jpeg',
-    name: 'Jack Ma',
+    name: 'Wendy Kwamboka',
     work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
     img: './assets/4.avif',
-    name: 'Mark Zuckerberg',
+    name: 'Martin Kiprotich',
     work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
   {
     img: './assets/5.avif',
-    name: 'Mark Zuckerberg',
+    name: 'Mercy Blasius',
     work: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
     words: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, natus! Optio, repellendus,',
   },
